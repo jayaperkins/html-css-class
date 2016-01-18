@@ -44,7 +44,7 @@ table {
 
 
 body {
-    background: url(img/fog.jpg) no-repeat top center fixed;
+    background: url(img/piano-background.jpg) no-repeat top center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -52,40 +52,89 @@ body {
     width: 100%;
 }
 
-.header {
-    color: #094562;
+.top-link {
+    background-color: #783745;
     text-align: center;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    margin: 375px 0 0 0;
+    padding: 10px;
 }
 
-.box-1 {
-    background-color: #094562;
+h1 {
+    padding: 20px;
+}
+
+header {
+    width: auto;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    opacity: .78;
+}
+
+footer {
+    width: auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.credit {
+    background-color: black;
+    color: white;
+}
+
+li {
+    display: inline;
+    margin: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.about {
+    background-color:#787878;
+    height:250px;
+    width: auto;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    opacity: .98;
+}
+
+.rates {
+    background-color:#787878;
     height:250px;
     width: auto;
     text-align: center;
     margin: 20px 20px 20px 20px;
+    opacity: .98;
 }
 
-.box-2 {
-    background-color: #496812;
+.location {
+    background-color:#787878;
     height:250px;
     width: auto;
     text-align: center;
     margin: 20px 20px 20px 20px;
+    opacity: .98;
 }
 
-.box-3 {
-    background-color: #584420;
+.contact {
+    background-color:#787878;
     height:250px;
     width: auto;
     text-align: center;
     margin: 20px 20px 20px 20px;
-}
-
-.box-4 {
-    background-color: #651456;
-    height:250px;
-    width: auto;
-    text-align: center;
-    margin: 20px 20px 20px 20px;
+    opacity: .98;
 }
 
